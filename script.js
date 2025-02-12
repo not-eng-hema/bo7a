@@ -80,8 +80,7 @@ function checkCollision() {
     player.y = 50;
     enemy.y = 300;
     enemy.x = 200;
-    score = 0;
-    myh1.textContent = score;
+   
     running = false;
   }
 }
@@ -130,6 +129,8 @@ function start() {
     running = true;
     startSound.play();
     update();
+     score = 0;
+    myh1.textContent = score;
   }
 }
 
