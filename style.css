@@ -5,7 +5,6 @@ h1{
 
 
 
-
 canvas {
 background-image: url(download\ \(4\).png);
   display: block;
@@ -17,7 +16,7 @@ background-image: url(download\ \(4\).png);
   text-align: center;
 }
 button{
-  margin:50px;
+  margin:15px;
   padding: 10px 20px;
   font-size: 30px;
   background-color: #216fce;
@@ -26,4 +25,7 @@ button{
   cursor: pointer;
 border-radius: 10px;
 
+}
+.button{
+  text-align: center;
 }
