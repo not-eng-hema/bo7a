@@ -1,0 +1,29 @@
+h1{
+  text-align: center;
+  color: rgb(34, 189, 189);
+}
+
+
+
+
+canvas {
+background-image: url(download\ \(4\).png);
+  display: block;
+  margin: auto;
+  background-size: cover;
+  
+}
+#button{
+  text-align: center;
+}
+button{
+  margin:50px;
+  padding: 10px 20px;
+  font-size: 30px;
+  background-color: #216fce;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+border-radius: 10px;
+
+}
