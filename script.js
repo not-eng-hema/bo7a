@@ -44,6 +44,16 @@ const keys = {};
 window.addEventListener("keydown", (e) => (keys[e.key] = true));
 window.addEventListener("keyup", (e) => (keys[e.key] = false));
 
+document.getElementById("up").addEventListener("touchstart", () => (keys["ArrowUp"] = true));
+document.getElementById("down").addEventListener("touchstart", () => (keys["ArrowDown"] = true));
+document.getElementById("left").addEventListener("touchstart", () => (keys["ArrowLeft"] = true));
+document.getElementById("right").addEventListener("touchstart", () => (keys["ArrowRight"] = true));
+
+document.getElementById("up").addEventListener("touchend", () => (keys["ArrowUp"] = false));
+document.getElementById("down").addEventListener("touchend", () => (keys["ArrowDown"] = false));
+document.getElementById("left").addEventListener("touchend", () => (keys["ArrowLeft"] = false));
+document.getElementById("right").addEventListener("touchend", () => (keys["ArrowRight"] = false));
+
 function movePlayer() {
   if (!running) return;
   if (keys["ArrowUp"]) player.dy = -player.speed;
