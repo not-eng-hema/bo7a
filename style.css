@@ -31,3 +31,6 @@ border-radius: 10px;
   display: flex;
   justify-content: center;
 }
+#up, #left, #down ,#right {
+  padding: 35px;
+}
