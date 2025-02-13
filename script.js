@@ -19,7 +19,7 @@ const player = {
   x: 50,
   y: 50,
   size: 50,
-  speed: 4,
+  speed: 5,
   dx: 0,
   dy: 0,
 };
