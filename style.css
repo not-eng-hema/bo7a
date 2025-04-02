@@ -1,3 +1,10 @@
+body{
+  background-color: rgb(34, 189, 189);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
 h1{
   text-align: center;
   color: rgb(34, 189, 189);
@@ -7,17 +14,17 @@ h1{
 
 
 canvas {
-background-image: url(download\ \(4\).png);
+background-image: url(bg.png);
   display: block;
   margin: auto;
   background-size: cover;
-  
+
 }
 #button{
   text-align: center;
 }
 button{
-  margin:10px;
+  margin:15px;
   padding: 10px 20px;
   font-size: 30px;
   background-color: #216fce;
@@ -28,9 +35,36 @@ border-radius: 10px;
 
 }
 .button{
-  display: flex;
-  justify-content: center;
+  position: relative;
+  width: 100%;
 }
-#up, #left, #down ,#right {
-  padding: 35px;
+ #left ,#right {
+  padding: 30px 50px;
+  
+}
+#up ,#down{
+  padding: 50px 30px;
+}
+.button1{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+
+}
+.button2{
+position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+
+
+}
+#Hema{
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
